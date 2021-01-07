@@ -1,0 +1,440 @@
+body{
+    width: 100%;
+    max-width: 1980px;
+    margin: 0 auto;
+    font-family: 'Butler';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    position: relative;
+}
+
+.main img{
+    width: 100%;
+    position: absolute;
+}
+
+.main-content{
+    width: 90%;
+    height: 745px;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    font-size: 14px;
+}
+
+.header-top{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid #b7b7b794;
+}
+
+.top-left{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.top-right{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.main-mid{
+    position: absolute;
+    display: block;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.main-mid h1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 64px;
+    font-family: 'Butler';
+    margin: 0;
+}
+
+.main-mid h1 p{
+    color: #e8be7b;
+}
+
+.main-mid a{
+    display: flex;
+    align-items: center;
+}
+
+.question{
+    margin: 0;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    width: 180px;
+    height: 48px;
+}
+
+.video{
+    color: white;
+    border: none;
+    background: #e8be7b;
+    width: 180px;
+    height: 48px;
+}
+
+.services{
+    width: 90%;
+    margin: 100px auto;
+}
+
+.services-header{
+    text-align: center;
+    color: #3a3a3a;
+    font-size: 32px;
+}
+
+.services-header h1{
+    margin: 0;
+}
+
+.services-header p{
+    font-size: 16px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.products .fa{
+    font-size: 64px;
+    color: #3a3a3a;
+    margin-top: 30px;
+}
+
+.products p{
+    margin: 30px;
+}
+
+.prod-card{
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.26);
+    width: 15%;
+    text-align: center;
+    font-weight: 600;
+    color: #3a3a3a;
+    cursor: pointer;
+}
+
+.prod-perf{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-img{
+    width: 48%;
+    height: 380px;
+    box-shadow: 15px 15px 0px 0px #e8be7b;
+    background-image: url(/img/436zvxzotem-alvin-mahmudov.png);
+    background-size: cover;
+}
+
+.prod-des{
+    width: 48%;
+    color: #3a3a3a;
+}
+
+.prod-header{
+    font-size: 30px;
+}
+
+.prod-des p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.more{
+    margin-top: 40px;
+}
+
+.more a{
+    font-size: 18px;
+    color: #d9ae6c;
+}
+
+.date{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.date img{
+    width: 100%;
+}
+
+.date-des-container{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.date-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.date-arrow-right{
+    color: white;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.date-arrow-left{
+    transform: rotate(180deg);
+    color: white;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.date-num{
+    color: #3a3a3a;
+    font-size: 32px;
+    font-weight: 400;
+    width: 20%;
+    text-align: center;
+}
+
+.date-num i{
+    color: #d9ae6c;
+}
+
+.date-des-text{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+}
+
+.date-des-text p{
+    width: 70%;
+    padding-left: 15px;
+    border-left: 1px solid #3a3a3a;
+}
+
+.date-num p{
+    margin: 0;
+    width: 100%;
+    font-family: 'Butler';
+    border: none;
+}
+
+.channel{
+    width: 90%;
+    position: relative;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+.channel-header{
+    text-align: center;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+.channel-header h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+.channel img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.channel button{
+    margin-top: 40px;
+    color: white;
+    border: none;
+    background: #e8be7b;
+    width: 180px;
+    height: 48px;
+}
+
+
+
+.latest-blog{
+    width: 90%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    margin-top: 100px;
+    color: #525252;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.post-date{
+    color: #757575;
+}
+
+.latest-blog .blog-nav{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.latest-blog .blog-nav a{
+    color: #3a3a3a;
+}
+
+.latest-blog .blog-nav .nav-active{
+    color: #e8be7b;
+}
+
+.blog-header{
+    text-align: center;
+}
+
+.blog-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-content img{
+    width: 100%;
+}
+
+.blog-main{
+    width: 60%;
+}
+
+.blog-card{
+    width: 30%;
+}
+
+.latest-blog button{
+    width: 170px;
+    height: 48px;
+    background: none;
+    border: 1px solid #525252;
+    color: #525252;
+    font-weight: 600;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.contacts-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contacts-header{
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.contact-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.c-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.contacts i{
+    font-size: 64px;
+}
+
+.contacts .fa-mobile{
+    font-size: 120px;
+}
+
+footer{
+    background: #3a3a3a;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 40px auto 0;
+}
+
+footer .logo{
+    margin-top: 40px;
+}
+
+a.a-active{
+    border-bottom: 1px solid white;
+}
